@@ -345,9 +345,9 @@
     justify-content: center;
   }
 
-  .prices-items {
-    text-align: center;
-  }
+  /* .prices-items {
+  text-align: center;
+} */
 
   .prices-items__header {
     margin-bottom: 0;
@@ -417,7 +417,8 @@
   }
 
   .dropdown-button {
-    margin: 81px 0px 133px;
+    width: 300px;
+    margin: 81px 0px 0;
   }
 
   .contacts__city-select {
@@ -432,11 +433,17 @@
     max-width: 300px;
   }
 
-  .dropdown-button {
-    width: 300px;
+  .contacts__office-item {
+    margin-top: 47px;
+    padding: 23px 33px;
+  }
+
+  .contacts__office-item table {
+    border-spacing: 0;
   }
 
   .contacts__img {
+    margin-top: 133px;
     margin-right: 0;
     vertical-align: bottom;
   }
