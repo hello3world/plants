@@ -37,14 +37,24 @@ body {
   line-height: 125%;
 }
 
+.service__btn._active {
+  background: #E06733;
+  color: #FFFFFF;
+}
+
+._blure {
+  filter: blur(0.5rem);
+  transition: filter ease-in-out 0.5s;
+}
+
 .btn:hover {
   background: rgba(224, 103, 51, 1);
   color: #fff;
 }
 
-.blur {
-  filter: blur(0.5rem);
-  transition: filter ease-in-out 0.5s;
+.btn--disabled {
+  border: 2px solid #828282;
+  cursor: none;
 }
 
 /* Header */
@@ -223,6 +233,7 @@ body {
 }
 
 .sv-item {
+  transition: filter ease-in-out 0.5s;
   max-width: 329px;
 }
 
